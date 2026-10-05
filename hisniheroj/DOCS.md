@@ -15,12 +15,20 @@ kopije Home Assistanta.
 
 ## Javni dostop (Cloudflare Tunnel)
 
-V add-onu **Cloudflared** dodaj nov javni hostname:
+V **Cloudflare Zero Trust → Networks → Tunnels → (tunel) → Public Hostname** dodaj:
+
+| Polje | Vrednost |
+|---|---|
+| Subdomain / Domain | `hisniheroj` / `gbartol.com` |
+| Service | `HTTP` → `<IP Raspberry Pi>:3000` |
+
+Cloudflare ustvari DNS zapis in zagotovi HTTPS. `base_url` v nastavitvah add-ona mora biti
+točno ta naslov (`https://hisniheroj.gbartol.com`).
+
+Če tunel upravljaš iz add-ona Cloudflared (lokalna konfiguracija), namesto tega dodaj:
 
 ```yaml
 additional_hosts:
   - hostname: hisniheroj.gbartol.com
-    service: http://homeassistant.local:3000
+    service: http://<IP Raspberry Pi>:3000
 ```
-
-(namesto `homeassistant.local` lahko uporabiš IP naslov Raspberry Pi-ja). HTTPS zagotovi Cloudflare.
