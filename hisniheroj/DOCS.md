@@ -1,7 +1,7 @@
 # HišniHeroj
 
 Družinska aplikacija za opravila, točke in nagrade. Add-on poganja strežnik in spletno aplikacijo (PWA)
-na portu **3000**. Podatki (baza, slike, skrivnost za seje) so v `/data` in so vključeni v varnostne
+na portu **8270** (v add-onu teče na 3000; port na RPi-ju lahko spremeniš v zavihku *Omrežje*). Podatki (baza, slike, skrivnost za seje) so v `/data` in so vključeni v varnostne
 kopije Home Assistanta.
 
 ## Nastavitve
@@ -20,7 +20,7 @@ V **Cloudflare Zero Trust → Networks → Tunnels → (tunel) → Public Hostna
 | Polje | Vrednost |
 |---|---|
 | Subdomain / Domain | `hisniheroj` / `gbartol.com` |
-| Service | `HTTP` → `<IP Raspberry Pi>:3000` |
+| Service | `HTTP` → `<IP Raspberry Pi>:8270` |
 
 Cloudflare ustvari DNS zapis in zagotovi HTTPS. `base_url` v nastavitvah add-ona mora biti
 točno ta naslov (`https://hisniheroj.gbartol.com`).
@@ -30,5 +30,5 @@ točno ta naslov (`https://hisniheroj.gbartol.com`).
 ```yaml
 additional_hosts:
   - hostname: hisniheroj.gbartol.com
-    service: http://<IP Raspberry Pi>:3000
+    service: http://<IP Raspberry Pi>:8270
 ```

@@ -1,5 +1,5 @@
 name: HišniHeroj
-version: "0.1.0"
+version: "0.1.1"
 slug: hisniheroj
 description: Družinska opravila, točke in nagrade (PWA)
 url: https://github.com/TadejBartol/hisniheroj-addon
@@ -11,7 +11,7 @@ init: false
 startup: application
 boot: auto
 ports:
-  3000/tcp: 3000
+  3000/tcp: 8270
 ports_description:
   3000/tcp: Spletna aplikacija in API (za Cloudflare Tunnel)
 watchdog: http://[HOST]:[PORT:3000]/api/health
