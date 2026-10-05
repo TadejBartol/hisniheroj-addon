@@ -1,0 +1,27 @@
+name: HišniHeroj
+version: "0.1.0"
+slug: hisniheroj
+description: Družinska opravila, točke in nagrade (PWA)
+url: https://github.com/TadejBartol/hisniheroj-addon
+arch:
+  - aarch64
+  - amd64
+image: ghcr.io/tadejbartol/hisniheroj-{arch}
+init: false
+startup: application
+boot: auto
+ports:
+  3000/tcp: 3000
+ports_description:
+  3000/tcp: Spletna aplikacija in API (za Cloudflare Tunnel)
+watchdog: http://[HOST]:[PORT:3000]/api/health
+backup: hot
+options:
+  base_url: https://hisniheroj.gbartol.com
+  smtp_url: ""
+  mail_from: HišniHeroj <no-reply@gbartol.com>
+schema:
+  base_url: url
+  smtp_url: password?
+  mail_from: str?
+  require_email_verification: bool?
