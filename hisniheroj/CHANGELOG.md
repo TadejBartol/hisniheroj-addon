@@ -1,5 +1,9 @@
 # Spremembe
 
+## 0.1.3
+
+- Strani Pravila zasebnosti (/zasebnost) in Pogoji uporabe (/pogoji) – potrebni za objavo Google prijave.
+
 ## 0.1.2
 
 - Predstavitvena stran na naslovu domene z gumbom »Prenesi aplikacijo« (Android, iPhone, QR za PC).
