@@ -1,5 +1,15 @@
 # Spremembe
 
+## 0.2.0
+
+- Opravila: kategorije, razpisi (enkratno, dnevno, tedensko, mesečno, letno, vsak n-ti), rok na dan ali v obdobju (z uro),
+  rotacija, vsak svoje, skupno; skrbniki; ustavljanje, brisanje v koš in obnova; predloge; hitro opravilo.
+- Domači zaslon: opravila v kupčkih, opravljanje z animacijo in razveljavitvijo, točke in stopnje, zamujena (pol točk),
+  prevzem opravil drugih s kaznijo za neopravljen prevzem.
+- Koledar s prihodnjimi pojavitvami in zgodovina s filtri ter CSV izvozom.
+- Razporejevalnik vsako minuto razpiše opravila in obdela zamujena.
+- Ob posodobitvi se baza samodejno nadgradi; računi in domovi ostanejo.
+
 ## 0.1.3
 
 - Strani Pravila zasebnosti (/zasebnost) in Pogoji uporabe (/pogoji) – potrebni za objavo Google prijave.
