@@ -1,5 +1,5 @@
 name: HišniHeroj
-version: "0.1.1"
+version: "0.1.2"
 slug: hisniheroj
 description: Družinska opravila, točke in nagrade (PWA)
 url: https://github.com/TadejBartol/hisniheroj-addon
@@ -25,3 +25,5 @@ schema:
   smtp_url: password?
   mail_from: str?
   require_email_verification: bool?
+  google_client_id: str?
+  google_client_secret: password?
