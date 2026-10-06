@@ -1,5 +1,18 @@
 # Spremembe
 
+## 0.3.0
+
+- Nagrade: trgovina v Profilu (dodajanje z ikono, ceno, prostimi dnevi in izbiro, kdo jo lahko kupi; hitre predloge).
+  Nakup odšteje točke (stopnja ostane), do unovčitve jo lahko vrneš. Unovčiš za danes ali izbran dan – vsi v domu dobijo obvestilo;
+  navadno nagrado na Domov označiš »Prejel(a) sem«.
+- Prosti dnevi: v teh dneh te rotacija preskoči, pri skupnih nisi med izbranimi, tvoja ostala opravila so prosta za prevzem
+  (če jih nihče ne vzame, zapadejo brez zamude in kazni). Vidno na Domov in v koledarju.
+- Potrjevanje: opravilo lahko zahteva potrditev – točke se pripišejo, ko skrbnik ali ustanovitelj potrdi (ali zavrne z razlogom).
+- Nove vrste obvestil: potrjevanje in nagrade (vklop v Profilu).
+- Spodnji meni ima 4 zavihke: Družina se zdaj odpre s kartico doma v Profilu (Moji domovi), z gumbom nazaj.
+- Pregled strežnika v Home Assistant (plošča HišniHeroj v stranskem meniju, samo za skrbnike): vsi domovi, člani,
+  aktivnost, uporabniki, velikost baze; brisanje domov z vsem v njih in uporabnikov brez doma.
+
 ## 0.2.2
 
 - Nov izgled kartic opravil (slog A): nižje in preglednejše, okrogel gumb s kljukico, točke ★ na vsaki kartici.

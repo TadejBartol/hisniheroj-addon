@@ -58,3 +58,19 @@ additional_hosts:
   - hostname: hisniheroj.gbartol.com
     service: http://<IP Raspberry Pi>:8270
 ```
+
+## Pregled strežnika (v Home Assistant)
+
+V stranskem meniju HA je plošča **HišniHeroj** (samo za skrbnike HA; vklopiš jo z *Pokaži v stranski vrstici*
+na strani add-ona ali jo odpreš z gumbom *Odpri spletni vmesnik*). Prikaže:
+
+- vse domove na strežniku: člane, število opravil, koliko je bilo opravljenega v zadnjih 7 in 30 dneh,
+  nagrade, slike in zadnjo aktivnost (aktiven / miruje / neaktiven),
+- vse uporabnike: registracijo, zadnjo prijavo, v koliko domovih so,
+- velikost baze in slik.
+
+**Izbriši dom** odstrani dom in vse v njem (opravila, zgodovino, točke, nagrade, obvestila, slike); računi članov ostanejo.
+Uporabnike, ki niso v nobenem domu, lahko izbrišeš na zavihku *Uporabniki*. Obe brisanji zahtevata vpis imena za potrditev.
+
+Pregled teče na notranjih vratih 8099, ki niso preslikana navzven, in sprejema samo zahteve iz Home Assistanta –
+prek Cloudflare tunela ni dosegljiv.
