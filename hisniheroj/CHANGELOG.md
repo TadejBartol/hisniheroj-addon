@@ -1,5 +1,17 @@
 # Spremembe
 
+## 0.2.1
+
+- Foto dokaz: opravila, ki zahtevajo sliko, se opravijo s fotografijo (telefon jo pomanjša); slika je vidna samo članom doma.
+- Osveževanje v živo: ko nekdo opravi ali prevzame opravilo, se zasloni drugih takoj osvežijo.
+- Push obvestila na telefon: novo opravilo zate, prevzem tvojega opravila, opomnik pred rokom, zamujeno,
+  razveljavljeno, jutranji povzetek. Vklop in izbira vrst v Profilu; seznam obvestil pod zvoncem. Nočni mir 22:00–7:00.
+- Tišji log: samo napake in počasne zahteve.
+- Družina: ustanovitelj ureja ime in ikono doma; pri članih so vidne točke in stopnja; ponastavitev točk enemu ali vsem (po želji tudi stopnje).
+- Opravila: zavihek Upravljanje je zdaj rumen »✎ Uredi« s kratkim uvodom.
+- Samodejna ponastavitev točk (Družina): vsak teden, mesec ali leto od izbranega dne; zmagovalec obdobja v obvestilih.
+- Naslovi: Č, Ć in Đ so zdaj enako debeli kot ostale črke (pisava Fredoka jih nima, dopolnjene so iz Nunito Black).
+
 ## 0.2.0
 
 - Opravila: kategorije, razpisi (enkratno, dnevno, tedensko, mesečno, letno, vsak n-ti), rok na dan ali v obdobju (z uro),
