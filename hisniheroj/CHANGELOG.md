@@ -1,5 +1,14 @@
 # Spremembe
 
+## 0.4.0
+
+- Statistika: lestvica z odrom (teden / mesec / vse), graf zbranih točk skozi čas (dotik imena poudari črto,
+  dotik grafa pokaže vrednosti, tudi kot razpredelnica), kdo je opravil največ opravil, opravila po kategorijah
+  in značke (niz brez zamude, prevzemi, najmanj zamud). Dotik člana odpre njegova opravila v obdobju in zgodovino.
+- Lestvica šteje zaslužene točke – nakupi nagrad je ne zmanjšajo.
+- Opravljene kartice (Domov, koledar, zgodovina) imajo debelo zeleno obrobo in svetlo zeleno ozadje;
+  opravljene, ki čakajo potrditev, vijolično.
+
 ## 0.3.0
 
 - Nagrade: trgovina v Profilu (dodajanje z ikono, ceno, prostimi dnevi in izbiro, kdo jo lahko kupi; hitre predloge).
