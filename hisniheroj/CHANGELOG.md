@@ -1,5 +1,11 @@
 # Spremembe
 
+## 0.2.2
+
+- Nov izgled kartic opravil (slog A): nižje in preglednejše, okrogel gumb s kljukico, točke ★ na vsaki kartici.
+- Brez kupčkov: opravila so razvrščena po kategorijah in vedno vidna (Domov in Uredi).
+- Spodnji meni čez celo širino, prilepljen na spodnji rob in tanjši.
+
 ## 0.2.1
 
 - Foto dokaz: opravila, ki zahtevajo sliko, se opravijo s fotografijo (telefon jo pomanjša); slika je vidna samo članom doma.
