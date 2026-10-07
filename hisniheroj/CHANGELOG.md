@@ -1,5 +1,20 @@
 # Spremembe
 
+## 0.4.1
+
+- Profil po dizajnu: stopnja z napredkom, mesečni povzetek (opravila, niz, prevzemi) in seznam nastavitev.
+- Profilna slika: naloži ali odstrani (telefon jo obreže na kvadrat). Vidijo jo člani tvojih domov – na opravilih,
+  koledarju, zgodovini, lestvici in v družini.
+- Nove strani: Ime in slika, Geslo in prijava (menjava gesla, geslo za Google račun, odjava drugih naprav), Obvestila.
+- Menjava doma: gumb Preklopi pri vsakem domu, izbirnik v glavi profila in na Domov (če si v več domovih).
+- Opravila drugih: jasneje, da zamujena opravila lahko prevzameš takoj (zaklep velja le za ostala).
+- Kdor prevzame zamujeno opravilo, dobi vse točke (pol točk velja le za tistega, ki ga je zamudil).
+- Odbitek za neopravljeno: če zamujenega opravila do konca ne opravi nihče, se zadolženemu odštejejo njegove točke
+  (do 0). Pravilo je privzeto vklopljeno, izklopi ga ustanovitelj v nastavitvah doma. Stara zamujena opravila
+  se ob nadgradnji ne kaznujejo za nazaj.
+- Namestitev iz drugih brskalnikov: na Androidu "Prenesi aplikacijo" stran odpre v Chromu (Samsung Internet,
+  Firefox, Messenger, Instagram …); na iPhonu gumb "Odpri v Safariju". Ostanejo tudi navodila za trenutni brskalnik.
+
 ## 0.4.0
 
 - Statistika: lestvica z odrom (teden / mesec / vse), graf zbranih točk skozi čas (dotik imena poudari črto,
