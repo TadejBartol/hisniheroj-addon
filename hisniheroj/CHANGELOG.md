@@ -1,5 +1,14 @@
 # Spremembe
 
+## 0.5.0
+
+- Nakupovalni seznam (nov zavihek Nakupi): skupen za ves dom in osvežen v živo. Dodajanje s predlogi pogosto
+  kupljenega, brez podvajanja (tudi s šumniki), dotik izdelka: količina/opomba ali odstrani.
+- Nakup: kdor gre v trgovino, tapne Začni nakup, kljuka, kar da v košarico, in Zaključi nakup. Vsak kupljen
+  izdelek je 1 točka (ne glede na količino). Česar ni bilo, ostane na seznamu. Ostali vidijo, kdo je v trgovini.
+- Zgodovina nakupov (ikona ure): nakupi po dnevih – kdo, kdaj, koliko izdelkov; dotik pokaže, kaj je bilo kupljeno
+  in česa ni bilo, z gumbom »Dodaj vse spet na seznam«.
+
 ## 0.4.2
 
 - Popravek: izbirnik doma na zaslonu Domov je imel bele (nevidne) črke.
