@@ -1,5 +1,14 @@
 # Spremembe
 
+## 0.5.2
+
+- Zaključen nakup je opravljeno opravilo »Nakup · N izdelkov« (kategorija Nakupi): vidi se v Opravljeno na Domov,
+  v zgodovini in koledarju opravil ter v statistiki (opravila, kategorije). Točke ostanejo enake (1 na izdelek),
+  nakupa ni mogoče razveljaviti. Že zaključeni nakupi se ob posodobitvi dopišejo (brez dodatnih točk).
+- Številka na ikoni aplikacije: koliko tvojih današnjih opravil še ni opravljenih. Osveži se ob odprtju aplikacije
+  in ob vsakem obvestilu. Deluje na iPhonu (aplikacija na začetnem zaslonu, obvestila dovoljena) in na računalniku;
+  Android številk na ikonah spletnih aplikacij ne podpira (pokaže le piko ob neprebranih obvestilih).
+
 ## 0.5.1
 
 - Številke v spodnjem meniju: na Domov koliko tvojih današnjih opravil še ni opravljenih, na Nakupi koliko
