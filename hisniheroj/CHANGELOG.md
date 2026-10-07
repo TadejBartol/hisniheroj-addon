@@ -1,5 +1,10 @@
 # Spremembe
 
+## 0.5.1
+
+- Številke v spodnjem meniju: na Domov koliko tvojih današnjih opravil še ni opravljenih, na Nakupi koliko
+  izdelkov je na seznamu za kupiti.
+
 ## 0.5.0
 
 - Nakupovalni seznam (nov zavihek Nakupi): skupen za ves dom in osvežen v živo. Dodajanje s predlogi pogosto
