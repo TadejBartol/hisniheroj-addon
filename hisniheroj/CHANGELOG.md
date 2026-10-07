@@ -1,5 +1,9 @@
 # Spremembe
 
+## 0.4.2
+
+- Popravek: izbirnik doma na zaslonu Domov je imel bele (nevidne) črke.
+
 ## 0.4.1
 
 - Profil po dizajnu: stopnja z napredkom, mesečni povzetek (opravila, niz, prevzemi) in seznam nastavitev.
