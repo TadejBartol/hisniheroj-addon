@@ -1,5 +1,14 @@
 # Spremembe
 
+## 0.6.0
+
+- Zvonec na Domov pokaže le, kar je nujno: oranžen klicaj, ko imaš opravila z rokom danes, rdeč klicaj, ko imaš
+  zamujena opravila, ki jih še lahko opraviš. Dotik odpre seznam teh opravil (stari seznam obvestil je odstranjen).
+- Ponavljajoči se opomniki na telefon: za vsako tvoje opravilo z rokom danes (privzeto vsako uro) in za vsako
+  zamujeno, ki ga še lahko opraviš (privzeto vsake pol ure). Pogostost nastaviš v Profil → Obvestila; gumb
+  »Samo opomniki« izklopi vsa ostala obvestila. Ponoči (22:00–7:00) opomnikov ni.
+- Push obvestila se pošiljajo z visoko nujnostjo, zato na Androidu pridejo takoj, tudi ko telefon miruje.
+
 ## 0.5.2
 
 - Zaključen nakup je opravljeno opravilo »Nakup · N izdelkov« (kategorija Nakupi): vidi se v Opravljeno na Domov,
