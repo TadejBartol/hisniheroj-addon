@@ -1,5 +1,16 @@
 # Spremembe
 
+## 0.7.0
+
+- Opravila na poziv: nova pogostost »Poziv« (npr. »Pomivalni opran«, »Koš je poln«). Na Domov je vrstica gumbov –
+  kdorkoli ga tapne, izbere, kdo ga dobi (na vrsti / kdor prej / najmanj točk ta teden ali kdorkoli ročno), opravilo
+  se razpiše z rokom (30 min – do konca dneva) in izbrani dobi obvestilo. »Že opravljeno« takoj pripiše točke.
+  Dokler je razpisano, ga ni mogoče sprožiti znova.
+- Kompaktnejši videz: manjše kartice opravil (Domov, Koledar, Zgodovina, Upravljanje), nižja glava doma in števci,
+  manjši koledar, da je brez drsenja vidnih več opravil. Animacije ostanejo enake.
+- Izbira ikone opravila v obrazcu (privzeto ikona kategorije) in nove ikone: pomivalni stroj, pralni stroj,
+  koš za perilo, sušilnik.
+
 ## 0.6.0
 
 - Zvonec na Domov pokaže le, kar je nujno: oranžen klicaj, ko imaš opravila z rokom danes, rdeč klicaj, ko imaš
